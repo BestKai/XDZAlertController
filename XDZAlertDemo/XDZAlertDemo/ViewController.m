@@ -70,9 +70,9 @@
 
 - (void)showCustomAlertController
 {
-//    XDZAlertController *alertVC = [XDZAlertController alertControllerWithTitle:[[NSAttributedString alloc] initWithString:@"我是Title" attributes:@{NSForegroundColorAttributeName:[UIColor redColor]}] message:[[NSAttributedString alloc] initWithString:@"我是Message" attributes:@{NSForegroundColorAttributeName:[UIColor blackColor]}] preferredStyle:XDZAlertControllerStyleAlert];
+    XDZAlertController *alertVC = [XDZAlertController alertControllerWithTitle:[[NSAttributedString alloc] initWithString:@"我是Title" attributes:@{NSForegroundColorAttributeName:[UIColor redColor]}] message:[[NSAttributedString alloc] initWithString:@"我是Message" attributes:@{NSForegroundColorAttributeName:[UIColor blackColor]}] preferredStyle:XDZAlertControllerStyleAlert];
     
-    XDZAlertController *alertVC = [XDZAlertController alertControllerWithTitle:nil message:nil preferredStyle:XDZAlertControllerStyleAlert];
+//    XDZAlertController *alertVC = [XDZAlertController alertControllerWithTitle:nil message:nil preferredStyle:XDZAlertControllerStyleAlert];
 
     
     XDZAlertAction *confirmaction = [XDZAlertAction actionWithTitle:[[NSAttributedString alloc] initWithString:@"Action1" attributes:@{}] style:XDZAlertActionStyleDefault handler:^(XDZAlertAction *action) {
